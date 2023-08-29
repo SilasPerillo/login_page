@@ -1,0 +1,63 @@
+.body-login {
+  border: 3px solid red;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(136, 199, 254);
+}
+
+.container-inputs-login {
+  border: 2px solid rgb(7, 61, 132);
+  border-radius: 8px;
+  background-color: aliceblue;
+  margin: 5px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 32vw;
+  height: auto; /* Alterado para "auto" para acomodar o conteúdo */
+  justify-content: center;
+  padding-left: 1.8vw;
+}
+
+.container-inputs-login label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.container-inputs-login input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.container-inputs-login .input-show-pass {
+  margin: 5px;
+}
+
+.container-btn {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px; /* Espaçamento entre os botões e as mensagens de validação */
+}
+
+.container-btn .btn-login {
+  flex: 1; /* Distribuir espaço igualmente entre os botões */
+  padding: 6px;
+  background-color: rgb(7, 61, 132);
+  color: white;
+  border: 1.5px 5px solid rgb(10, 30, 56);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.container-btn .btn-login:hover {
+  background-color: #2a53a4;
+}

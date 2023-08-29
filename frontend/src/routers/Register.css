@@ -1,0 +1,78 @@
+.body-register {
+  border: 3px solid red;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(136, 199, 254);
+}
+
+.container-input-register {
+  border: 2px solid rgb(7, 61, 132);
+  border-radius: 8px;
+  background-color: aliceblue;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex; /* Usar flex para as colunas */
+  flex-wrap: wrap; /* Quebrar para uma nova linha se necessário */
+  gap: 8px;
+  width: 80%;
+  max-width: 800px;
+  justify-content: space-between;
+}
+
+.container-input-register label,
+.container-input-register input {
+  flex-basis: calc(50% - 4px); /* Definir metade da largura, subtraindo o gap */
+}
+
+.container-input-register label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.container-input-register input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.validade-password-not {
+  color: red;
+  font-size: 10px;
+  margin-top: 2px;
+}
+
+.validade-password-ok {
+  color: green;
+  font-size: 10px;
+  margin-top: 2px;
+}
+
+.container-btn-register {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; /* Espaçamento entre os botões e as mensagens de validação */
+}
+
+.container-btn-register button {
+  flex: 1; /*Distribuir espaço igualmente entre os botões */
+  padding: 6px;
+  background-color: rgb(7, 61, 132);
+  color: white;
+  border: 1.5px 5px solid rgb(10, 30, 56);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.container-btn-register button:hover {
+  background-color: #2a53a4;
+}

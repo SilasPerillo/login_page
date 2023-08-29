@@ -1,0 +1,70 @@
+.body-master {
+  border: 3px solid red;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(136, 199, 254);
+}
+
+.container-btn-master {
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; /* Espaçamento entre os botões e as mensagens de validação */
+}
+
+.container-btn-master button {
+  flex: 1; /* Distribuir espaço igualmente entre os botões */
+  padding: 6px;
+  background-color: rgb(7, 61, 132);
+  color: white;
+  border: 1.5px 5px solid rgb(10, 30, 56);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.container-btn-master button:hover {
+  background-color: #2a53a4;
+}
+
+.user-table {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  margin: 20px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
